@@ -55,17 +55,25 @@ ORDER BY and aggregate functions.
 
 ### Queries Written
 - Query 1: View dataset (SELECT, TOP)
-- [Query 2 Results](screenshots/query1_view_data.png)
+- [Query 1 Results](screenshots/query1_view_data.png)
 - Query 2: Order count per product (COUNT, GROUP BY)
-- [Query 2 Results](screenshots/query2_order per product.png)
+- [Query 2 Results](screenshots/query2_order_per_product.png)
 - Query 3: Total revenue per product (SUM, GROUP BY)
+- [Query 3 Results](screenshots/query3_revenue_per_product.png)
 - Query 4: Average order value per payment method (AVG, GROUP BY)
+- [Query 4 Results](screenshots/query4_average_order_value_per_payment_method.png)
 - Query 5: Filter delivered orders (WHERE)
+- [Query 5 Results](screenshots/query5_only_delivered_goods.png)
 - Query 6: Delivered orders by Credit Card (WHERE + AND)
+- [Query 6 Results](screenshots/query6_delivered_orders_paid_by_credit_card.png)
 - Query 7: Top 10 highest value orders (TOP, ORDER BY)
+- [Query 7 Results](screenshots/query7_top_highest_value_orders.png)
 - Query 8: Orders per referral source (COUNT, ORDER BY)
+- [Query 8 Results](screenshots/query8_orders_per_referral_Source.png)
 - Query 9: Products with over 170 orders (HAVING)
+- [Query 9 Results](query9_products_with_more_than_170_orders.png)
 - Query 10: Returned and cancelled orders (WHERE IN)
+- [Query 10 Results](screenshots/query10_returned_and_cancelled_orders.png)
 
 ### Key Findings
 - Chair generates the highest revenue at $195,620 despite not 
