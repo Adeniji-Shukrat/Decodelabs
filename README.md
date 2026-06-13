@@ -36,3 +36,41 @@ and generate actionable business insights.
 - Trend Analysis
 - Outlier Detection
 
+
+
+---
+
+## Project 3: SQL Data Analysis
+
+### Dataset
+E-Commerce Orders Dataset — 1,200 records
+
+### Tool Used
+SQL Server Management Studio (SSMS)
+
+### Objective
+To extract business insights from an e-commerce dataset using 
+SQL queries including SELECT, WHERE, GROUP BY, HAVING, 
+ORDER BY and aggregate functions.
+
+### Queries Written
+- Query 1: View dataset (SELECT, TOP)
+- Query 2: Order count per product (COUNT, GROUP BY)
+- Query 3: Total revenue per product (SUM, GROUP BY)
+- Query 4: Average order value per payment method (AVG, GROUP BY)
+- Query 5: Filter delivered orders (WHERE)
+- Query 6: Delivered orders by Credit Card (WHERE + AND)
+- Query 7: Top 10 highest value orders (TOP, ORDER BY)
+- Query 8: Orders per referral source (COUNT, ORDER BY)
+- Query 9: Products with over 170 orders (HAVING)
+- Query 10: Returned and cancelled orders (WHERE IN)
+
+### Key Findings
+- Chair generates the highest revenue at $195,620 despite not 
+  having the most orders
+- 497 orders (41.4%) were either Returned or Cancelled — 
+  a critical business problem
+- Instagram is the strongest acquisition channel at 259 orders
+- Credit Card customers have the highest average order value
+- Only 4 of 7 products exceeded 170 orders: Printer, Tablet, 
+  Chair and Laptop
