@@ -1,12 +1,54 @@
 # DecodeLabs Data Analytics Internship — Task Submissions
 
 ## About Me
-**Name:** Adeniji Shukraat Opeyemi
+**Name:** Adeniji Shukrat Opeyemi
 **Domain:** Data Analytics
 **Batch:** 2026
 **Organization:** DecodeLabs
 
 ---
+## Project 1: Data Cleaning & Preparation
+
+### Dataset
+E-Commerce Orders Dataset — 1,200 records, 14 columns
+
+### Tool Used
+Microsoft Excel
+
+### Objective
+To audit and clean a raw e-commerce dataset by identifying 
+missing values, checking for duplicates, verifying data types,
+and ensuring logical consistency across all columns.
+
+### Cleaning & Audit Log Summary
+
+| Change ID | Column | Finding | Action |
+|---|---|---|---|
+| CR001 | All Columns | Checked for missing values | Found 309 blanks in CouponCode only |
+| CR002 | CouponCode | 309 blank values (25.75%) | Filled with "No Coupon" — 0 records deleted |
+| CR003 | OrderID | Checked for duplicate records | 0 duplicates confirmed |
+| CR004 | All Columns | Checked date and format consistency | All formats correct — no action needed |
+| CR005 | All Columns | Verified data types for all 14 columns | All data types correct — no corrections needed |
+| CR006 | TotalPrice | Verified TotalPrice = Quantity × UnitPrice | All 1,200 rows accurate — no errors found |
+| CR007 | All Columns | Checked for negative values in numeric columns | No negative values found — data logically consistent |
+
+### Key Finding
+Only one data quality issue was identified across the entire 
+dataset: 309 missing CouponCode values representing orders 
+placed without a discount code. These were filled with 
+"No Coupon" rather than deleting rows, preserving all 
+1,200 records and maintaining full statistical power.
+
+### Outcome
+- Pre-cleaning issues: 309
+- Post-cleaning issues: 0
+- Data completeness: 100% ✅
+- Records preserved: 1,200 of 1,200
+
+### Files Included
+- Project1_Data_Cleaning.xlsx — contains Raw Data, 
+  Cleaned Data, Change Log and Audit Summary sheets
+
 
 ## Project 2: Exploratory Data Analysis (EDA)
 
