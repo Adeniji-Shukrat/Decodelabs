@@ -57,7 +57,7 @@ ORDER BY and aggregate functions.
 - Query 1: View dataset (SELECT, TOP)
 - [Query 2 Results](screenshots/query1_view_data.png)
 - Query 2: Order count per product (COUNT, GROUP BY)
-- [Query 2 Results](screenshots/query2_ordersper_product.png)
+- [Query 2 Results](screenshots/query2_order per product.png)
 - Query 3: Total revenue per product (SUM, GROUP BY)
 - Query 4: Average order value per payment method (AVG, GROUP BY)
 - Query 5: Filter delivered orders (WHERE)
