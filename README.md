@@ -84,3 +84,53 @@ ORDER BY and aggregate functions.
 - Credit Card customers have the highest average order value
 - Only 4 of 7 products exceeded 170 orders: Printer, Tablet, 
   Chair and Laptop
+
+
+---
+
+## Project 4: Data Visualization — Power BI Dashboard
+
+### Dataset
+E-Commerce Orders Dataset — 1,200 records spanning January 2023 to June 2025
+
+### Tool Used
+Microsoft Power BI Desktop
+
+### Objective
+To build a fully interactive dashboard that visualizes the key findings 
+from the EDA and SQL analysis, enabling stakeholders to explore 
+e-commerce performance at a glance.
+
+### Dashboard Components
+- KPI Card: Total Orders (1,200)
+- KPI Card: Total Revenue ($1.26M)
+- Bar Chart: Revenue by Product
+- Bar Chart: Orders by Order Status
+- Bar Chart: Orders by Referral Source
+- Column Chart: Average Order Value by Payment Method
+- Line Chart: Monthly Revenue Trend (Jan 2023 — Jun 2025)
+- Donut Chart: Orders by Payment Method
+- Slicer: Filter by Year
+- Slicer: Filter by Product
+
+### Key Findings Visualized
+- Chair generates the highest revenue at $196K despite not 
+  leading in order count
+- 497 orders (41.4%) resulted in Cancellation or Return — 
+  Delivered is the lowest status at only 231 orders
+- Sharp revenue dips occur every August in both 2023 and 2024 
+  suggesting seasonal patterns
+- All 5 payment methods share almost equal order distribution 
+  (19-21% each)
+- Credit Card customers have the highest average order value 
+  at $1,128
+- Instagram is the strongest customer acquisition channel at 
+  259 orders
+
+### Files Included
+- Project4_PowerBI_Dashboard.pbix — Interactive dashboard file
+- Project4_Dashboard_Preview.pdf — Static PDF preview
+- screenshots/Project4_PowerBI_Dashboard.png — Dashboard screenshot
+
+### Dashboard Preview
+![E-Commerce Dashboard](screenshots/Project4_PowerBI_Dashboard.png)
